@@ -95,6 +95,7 @@ table tfoot{
 
 
 article{
+  text-shadow:   0 0 0 #FCFCFC,       -1px -1px 0 #FCFCFC,         1px -1px 0 #FCFCFC,       -1px 1px 0 #FCFCFC,       1px 1px 0 #FCFCFC; 
   border-left: 5px solid #27AE60;
   padding-left: 10px;
   margin: 1em 1em 1em 0;
@@ -163,8 +164,7 @@ button{
   height: 64px;
 }
 
-.sidy-by-side{
-}
+
 
 .description{
   flex: 1;
