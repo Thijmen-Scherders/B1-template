@@ -195,12 +195,11 @@ footer{
 }
 
 .hidden-on-lg{
-  display: none;
-}
-.hidden-on-sm{
   display: block;
 }
-
+.hidden-on-sm{
+  display: none;
+}
 
 
 /* 
