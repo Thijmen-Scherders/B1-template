@@ -207,6 +207,10 @@ footer{
   
 }
 
+table tfoot td.total{
+  width: 100px;
+  display: inline-block;
+}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
