@@ -201,6 +201,12 @@ footer{
   display: none;
 }
 
+.sidy-by-side{
+  display:flex;
+  justify-content: space-between;
+  
+}
+
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
