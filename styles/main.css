@@ -22,8 +22,26 @@ body, html{
   width: 100%;
   margin: 0 auto;
 }
+main{
+  display: flex;
+  justify-content: center;
+}
 
 
+
+.info-product span {
+  font-weight: bold;
+}
+.info-product{
+  margin-top: 60px;
+  width: 40%;
+    
+}
+
+.info-product p{
+  margin: 5px;
+
+}
 header{
   background: url('../images/park01.jpg');
   background-size: cover;
@@ -218,19 +236,23 @@ table tfoot td.total{
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
 
-@media (max-width: 480px) {
 
-}
+
+
 
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
+
 */
 
 @media (max-width: 1024px) {
   .logo{
     margin: 0 auto;
     width: 256px;
+  }
+  .picture-product img{
+    width: 100%;
   }
 
   .row{
@@ -239,6 +261,20 @@ table tfoot td.total{
   .sidy-by-side{
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  main{
+    flex-direction: column;
+  }
+  .picture-product{
+    width: 100%;
+  }
+  .info-product{
+    width: 100%;
+  }
+  .picture-product img{
+    width: 50%;
   }
 }
 
