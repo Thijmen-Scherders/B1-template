@@ -29,17 +29,6 @@ main{
 
 
 
-.info-product span {
-  font-weight: bold;
-}
-.info-product{
-  margin-top: 60px;
-  width: 40%;
-    
-}
-
-.info-product p{
-  margin: 5px;
 
 }
 header{
@@ -229,6 +218,21 @@ table tfoot td.total{
   width: 100px;
   display: inline-block;
 }
+
+
+
+.info-product span {
+  font-weight: bold;
+}
+.info-product{
+  margin-top: 60px;
+  width: 40%;
+    
+}
+
+.info-product p{
+  margin: 5px;
+
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
